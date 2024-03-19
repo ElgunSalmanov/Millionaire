@@ -1,0 +1,26 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "question": "What is the best AI?",
+      "answers": [
+        {
+          "text": "ChatGPT",
+          "correct": true
+        },
+        {
+          "text": "AI",
+          "correct": false
+        },
+        {
+          "text": "Caht",
+          "correct": false
+        },
+        {
+          "text": "Asd",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}
