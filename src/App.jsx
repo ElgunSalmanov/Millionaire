@@ -370,16 +370,34 @@ function App() {
   ];
 
   useEffect(() => {
-    number > 1 &&
-      setEarned(money.find((item) => item.id === number - 1).amount);
-  }, [number, money]);
+    if (number === data.length + 1 && number > 1) {
+      setTime(true);
+
+      const earnedAmount =
+        money.find((item) => item.id === number - 1)?.amount || "$ 0";
+      setEarned(earnedAmount);
+    } else {
+      setEarned(money.find((item) => item.id === number - 1)?.amount || "$ 0");
+    }
+  }, [number, money, data]);
+
+  const startNewGame = () => {
+    setNumber(1);
+    setTime(false);
+    setEarned("$ 0");
+  };
 
   return (
     <>
       <div className="app">
         <div className="app-container">
           {time ? (
-            <h1 className="earned">You earned: {earned}</h1>
+            <>
+              <h1 className="earned">You earned: {earned}</h1>
+              <button className="app-container-restart" onClick={startNewGame}>
+                Start New Game
+              </button>
+            </>
           ) : (
             <>
               <div className="app-container-up">
