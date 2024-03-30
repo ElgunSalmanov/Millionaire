@@ -2,23 +2,331 @@
   "data": [
     {
       "id": 1,
-      "question": "What is the best AI?",
+      "question": "What does HTML stand for?",
       "answers": [
         {
-          "text": "ChatGPT",
+          "text": "Hyper Text Markup Language",
           "correct": true
         },
         {
-          "text": "AI",
+          "text": "High Tech Markup Language",
           "correct": false
         },
         {
-          "text": "Caht",
+          "text": "Home Tool Markup Language",
           "correct": false
         },
         {
-          "text": "Asd",
+          "text": "Hyperlink and Text Markup Language",
           "correct": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What does CSS stand for?",
+      "answers": [
+        {
+          "text": "Cascading Style Syntax",
+          "correct": false
+        },
+        {
+          "text": "Cascading Style Sheets",
+          "correct": true
+        },
+        {
+          "text": "Cascading Style System",
+          "correct": false
+        },
+        {
+          "text": "Cascading Style Script",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "What does JS stand for?",
+      "answers": [
+        {
+          "text": "JavaScripting",
+          "correct": false
+        },
+        {
+          "text": "JavaSuper",
+          "correct": false
+        },
+        {
+          "text": "JavaStyle",
+          "correct": false
+        },
+        {
+          "text": "JavaScript",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Which of the following is not a programming language?",
+      "answers": [
+        {
+          "text": "Java",
+          "correct": false
+        },
+        {
+          "text": "CSS",
+          "correct": true
+        },
+        {
+          "text": "Python",
+          "correct": false
+        },
+        {
+          "text": "Ruby",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "What is the purpose of the `else` statement in Python's `if` conditional structure?",
+      "answers": [
+        {
+          "text": "It defines a block of code to be executed if the condition is true",
+          "correct": false
+        },
+        {
+          "text": "It defines a block of code to be executed if the condition is false",
+          "correct": true
+        },
+        {
+          "text": "It defines a block of code to be executed regardless of the condition",
+          "correct": false
+        },
+        {
+          "text": "It defines a block of code to be executed repeatedly",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "What is the purpose of the `elif` statement in Python?",
+      "answers": [
+        {
+          "text": "It defines a block of code to be executed if the condition is true",
+          "correct": false
+        },
+        {
+          "text": "It defines a block of code to be executed if the condition is false",
+          "correct": false
+        },
+        {
+          "text": "It defines a block of code to be executed regardless of the condition",
+          "correct": false
+        },
+        {
+          "text": "It defines a block of code to be executed if the previous condition is false",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "What is the purpose of the `for` loop in Python?",
+      "answers": [
+        {
+          "text": "It defines a block of code to be executed if the condition is true",
+          "correct": false
+        },
+        {
+          "text": "It defines a block of code to be executed if the condition is false",
+          "correct": false
+        },
+        {
+          "text": "It defines a block of code to be executed regardless of the condition",
+          "correct": false
+        },
+        {
+          "text": "It defines a block of code to be executed repeatedly",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "What is the purpose of the `while` loop in Python?",
+      "answers": [
+        {
+          "text": "It defines a block of code to be executed if the condition is true",
+          "correct": false
+        },
+        {
+          "text": "It defines a block of code to be executed if the condition is false",
+          "correct": false
+        },
+        {
+          "text": "It defines a block of code to be executed regardless of the condition",
+          "correct": false
+        },
+        {
+          "text": "It defines a block of code to be executed repeatedly",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Which of the following is not a valid programming paradigm?",
+      "answers": [
+        {
+          "text": "Calculational",
+          "correct": true
+        },
+        {
+          "text": "Object-Oriented",
+          "correct": false
+        },
+        {
+          "text": "Procedural",
+          "correct": false
+        },
+        {
+          "text": "Functional",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "What is the primary purpose of version control systems like Git?",
+      "answers": [
+        {
+          "text": "To manage and track changes to user interfaces",
+          "correct": false
+        },
+        {
+          "text": "To manage and track changes to databases",
+          "correct": false
+        },
+        {
+          "text": "To manage and track changes to code",
+          "correct": true
+        },
+        {
+          "text": "To manage and track changes to servers",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "Which of the following is not a valid JavaScript data type?",
+      "answers": [
+        {
+          "text": "String",
+          "correct": false
+        },
+        {
+          "text": "Character",
+          "correct": true
+        },
+        {
+          "text": "Boolean",
+          "correct": false
+        },
+        {
+          "text": "Number",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "Which of the following is an example of a front-end JavaScript framework/library?",
+      "answers": [
+        {
+          "text": "React",
+          "correct": true
+        },
+        {
+          "text": "Express",
+          "correct": false
+        },
+        {
+          "text": "Django",
+          "correct": false
+        },
+        {
+          "text": "Flask",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "Which programming language is often used for building dynamic web applications and server-side scripting?",
+      "answers": [
+        {
+          "text": "Python",
+          "correct": false
+        },
+        {
+          "text": "PHP",
+          "correct": true
+        },
+        {
+          "text": "Java",
+          "correct": false
+        },
+        {
+          "text": "Ruby",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "What is the term used to describe the process of finding and fixing errors in a program's code?",
+      "answers": [
+        {
+          "text": "Debugging",
+          "correct": true
+        },
+        {
+          "text": "Testing",
+          "correct": false
+        },
+        {
+          "text": "Compiling",
+          "correct": false
+        },
+        {
+          "text": "Running",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "What is the term used to describe the process of writing code?",
+      "answers": [
+        {
+          "text": "Debugging",
+          "correct": false
+        },
+        {
+          "text": "Testing",
+          "correct": false
+        },
+        {
+          "text": "Compiling",
+          "correct": false
+        },
+        {
+          "text": "Programming",
+          "correct": true
         }
       ]
     }
